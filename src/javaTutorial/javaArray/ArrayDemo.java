@@ -2,6 +2,15 @@ package javaTutorial.javaArray;
 
 public class ArrayDemo {
     public static void main(String[] args) {
+        byte[] anArrayOfBytes;
+        short[] anArrayOfShort;
+        long[] anArrayOfLong;
+        float[] anArrayOfFloat;
+        double[] anArrayOfDouble;
+        boolean[] anArrayOfBooleans;
+        char[] anArrayOfChar;
+        String[] anArrayString;
+
         int [] anArray = {
                 100, 200, 300,
                 400, 500, 600,
@@ -31,6 +40,9 @@ public class ArrayDemo {
         System.out.println("Element at index 7: " + anArray[7]);
         System.out.println("Element at index 8: " + anArray[8]);
         System.out.println("Element at index 9: " + anArray[9]);
+        System.out.println(anArray.length);
 
     }
+
+
 }
